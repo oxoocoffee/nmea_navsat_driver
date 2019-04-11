@@ -3,7 +3,7 @@
   <!-- A simple launch file for the nmea_serial_driver node. -->
 
   <arg name="port" default="/dev/ttyUSB0" />
-  <arg name="baud" default="4800" />
+  <arg name="baud" default="19200" />
   <arg name="frame_id" default="gps" />
   <arg name="time_ref_source" default="gps" />
   <arg name="useRMC" default="False" />
